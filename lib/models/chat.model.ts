@@ -23,6 +23,7 @@ export const models = {
   'gpt-3.5-turbo-0301': openAIStream,
   'gpt-3.5-turbo-0125': openAIStream,
   'claude-3-haiku-20240307-v1': anthropicStream,
+  'claude-3-opus': anthropicStream,
   'claude-3-opus-20240229-v1': anthropicStream,
   'claude-3-sonnet-20240229-v1': anthropicStream,
   'claude-v2.1': anthropicStream,
