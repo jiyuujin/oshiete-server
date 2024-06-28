@@ -37,9 +37,11 @@ export type OpenAIModel =
  * https://www.anthropic.com/api#pricing
  */
 export type AnthropicModel =
+  | 'claude-3.5-sonnet' // flagship model
+  | 'claude-3-opus'
+  | 'claude-3-haiku-20240307-v1'
   | 'claude-3-opus-20240229-v1' // flagship model
   | 'claude-3-sonnet-20240229-v1'
-  | 'claude-3-haiku-20240307-v1'
   | 'claude-v2.1'
   | 'claude-v2.0'
   | 'claude-instant-v1'
