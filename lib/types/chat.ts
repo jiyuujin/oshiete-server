@@ -8,8 +8,8 @@ export type Model = OpenAIModel | AnthropicModel | GoogleModel
  * https://openai.com/api/pricing/
  */
 export type OpenAIModel =
-  | 'gpt-4o' // flagship model
-  | 'gpt-4-turbo' // flagship model
+  | 'gpt-4o'
+  | 'gpt-4-turbo'
   | 'gpt-4-turbo-2024-04-09'
   | 'gpt-4-turbo-preview'
   | 'gpt-4-0125-preview'
@@ -21,7 +21,7 @@ export type OpenAIModel =
   | 'gpt-4-32k'
   | 'gpt-4-32k-0613'
   | 'gpt-3.5-turbo-0125'
-  | 'gpt-3.5-turbo' // flagship model
+  | 'gpt-3.5-turbo'
   | 'gpt-3.5-turbo-1106'
   | 'gpt-3.5-turbo-instruct'
   | 'gpt-3.5-turbo-16k'
@@ -37,10 +37,10 @@ export type OpenAIModel =
  * https://www.anthropic.com/api#pricing
  */
 export type AnthropicModel =
-  | 'claude-3.5-sonnet' // flagship model
+  | 'claude-3.5-sonnet'
   | 'claude-3-opus'
   | 'claude-3-haiku-20240307-v1'
-  | 'claude-3-opus-20240229-v1' // flagship model
+  | 'claude-3-opus-20240229-v1'
   | 'claude-3-sonnet-20240229-v1'
   | 'claude-v2.1'
   | 'claude-v2.0'
@@ -52,7 +52,7 @@ export type AnthropicModel =
  * https://ai.google.dev/pricing
  */
 export type GoogleModel =
-  | 'gemini-1.5-pro' // flagship model
+  | 'gemini-1.5-pro'
   | 'gemini-1.5-flash'
   | 'gemini-1.0-pro'
   | 'gemini-pro-vision'
